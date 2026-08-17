@@ -46,8 +46,8 @@ public class Main {
         employeeBook.findFirstEmployeesBySallary(300000, 3);
         System.out.println(" ");
 
-        employeeBook.hasEmployee(person1);// Вот тут вообще не понимаю почему не выводит никакого поля в консоли.
-        // что не так с этим методом?
+        boolean has = employeeBook.hasEmployee(person4);
+        System.out.println("Есть такой сотрудник? - " + has);
 
         employeeBook.findEmployeeById(5);
     }
